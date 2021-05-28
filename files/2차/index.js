@@ -46,7 +46,7 @@ const thu = "Thu";
 const fri = "Fri";
 console.log(mon,tue,wed,thu,fri);
 // then an ARRAY will be like
-const daysOfWeek = ["Mon","Te","Wed","Thu","Fri"];
+const daysOfWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday"];
 console.log(daysOfWeek);
 //OutputL ['Mon','Tue',...]
 
@@ -57,6 +57,6 @@ console.log(daysOfWeek[0]);
 console.log(daysOfWeek[432]);
 //this is undefine -> error
 
-const daysOfWeek =  ["Mon","Te","Wed","Thu","Fri",54,true, "stuff"];
+const daysOfWeek =  ["Mon","Tue","Wed","Thu","Fri",54,true, "stuff"];
 
 
