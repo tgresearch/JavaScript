@@ -16,6 +16,8 @@ to do : finish
 const what = "Nicolas";
 // wihtout "" -> try to find the variable
 console.log(what);
+//output: Nicolas
+
 //you can save text and emojis
 const what = "565656";
 // here the number 565656 are text not numbers
@@ -31,4 +33,30 @@ const what = 12.1;
 
 /** Video #2
 **/
+##ARRAY
+//how we store data in a list kind of way
+const daysOfWeek =  ;
+//camel case alwas start with 'lower case' and instead of space you start with 'upper case'
+const daysOfWeek =  ;
+// a not optimal way pof writting a list
+cosnt mon = "Mon";
+cosnt tue = "Tue";
+cosnt wed = "Wed";
+const thu = "Thu";
+const fri = "Fri";
+console.log(mon,tue,wed,thu,fri);
+// then an ARRAY will be like
+const daysOfWeek = ["Mon","Te","Wed","Thu","Fri"];
+console.log(daysOfWeek);
+//OutputL ['Mon','Tue',...]
+
+// you can get elements
+console.log(daysOfWeek[#]);
+console.log(daysOfWeek[0]);
+//starting from zero
+console.log(daysOfWeek[432]);
+//this is undefine -> error
+
+const daysOfWeek =  ["Mon","Te","Wed","Thu","Fri",54,true, "stuff"];
+
 
