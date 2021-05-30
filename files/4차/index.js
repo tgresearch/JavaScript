@@ -35,14 +35,31 @@ const calculator = {
   plus: function(a,b){
     return a+b;
   },
-  substract: function(){},
-  multiply: function(){},
-  power: function(){},
+  minus: function(a,b){
+    return a-b;
+  },
+  multiply: function(a,b){
+    return a*b;
+  },
+  power: function(a,b){
+    return a**b;
+  },
 }
 
-//
+// plus
 const plus = calculator.plus(5,5);
 console.log(plus)
 
+// multiply
+const multiply = calculator.multiply(5,5);
+console.log(multiply)
+
+// minus
+const minus = calculator.minus(5,5);
+console.log(minus)
+
+// power
+const power = calculator.power(5,5);
+console.log(power)
 
 
