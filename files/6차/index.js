@@ -103,10 +103,18 @@ if(age >= 18 && age <= 21){
 ///Change colors
 const title = document.querySelector("#title");
 
-const BASE_COLOR = "#33495e";
+const BASE_COLOR = rgb(53,73,94);
 
+const OTHER_COLOR = "#7f8c8d";
+// get current color that they have with the click
 function handleClick(){
-  console.log(title.style.color);
+  const currentColor = title.style.color;
+  //console.log(currentColor);
+  if (currentColor === BASE_COLOR){
+    title.style.color = OTHER_COLOR;
+  } else {
+    title.style.color = BASE_COLOR;
+  }
 }
 
 function init(){
@@ -114,5 +122,17 @@ function init(){
   title.addEventListener("click", handleClick);
 }
 init();
+//lets check another event
+// always use MDN
+//https://developer.mozilla.org/en-US/docs/Web/Events
+function handleOffline(){
+  console.log("test offline event");
+}
+window.addEventListern("offline", handleOffline);
+
+function handleOnline(){
+  console.log("test online event");
+}
+window.addEventListern("online", handleOnline);
 
 
