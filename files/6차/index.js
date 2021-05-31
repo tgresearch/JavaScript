@@ -128,11 +128,11 @@ init();
 function handleOffline(){
   console.log("test offline event");
 }
-window.addEventListern("offline", handleOffline);
+window.addEventListener("offline", handleOffline);
 
 function handleOnline(){
   console.log("test online event");
 }
-window.addEventListern("online", handleOnline);
+window.addEventListener("online", handleOnline);
 
 
