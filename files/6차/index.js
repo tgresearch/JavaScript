@@ -98,3 +98,21 @@ if(age >= 18 && age <= 21){
 } else {
   console.log("You are too young");
 }
+
+///VIDEO 2
+///Change colors
+const title = document.querySelector("#title");
+
+const BASE_COLOR = "#33495e";
+
+function handleClick(){
+  console.log(title.style.color);
+}
+
+function init(){
+  title.style.color=BASE_COLOR;
+  title.addEventListener("click", handleClick);
+}
+init();
+
+
