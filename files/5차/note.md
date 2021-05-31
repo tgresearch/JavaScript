@@ -1,34 +1,36 @@
-#Video #1 */
-###1
+Video no.1
+===
+### 1
 ~~~javascript
 const title = document.getElementById("title");
 title.innerHTML = "Hello from JS";
 console.log(title);
 ~~~
-###2 change title
+### 2 change title
 ~~~javascript
 title.style.color = "blue";
 ~~~
-###3 same thing with document
-///you can check objects on browser
+### 3 same thing with document
+you can check objects on browser
 ~~~javascript
 document.title = "I modified you";
 ~~~
-/// this is how you can modify website
+this is how you can modify website
 ~~~javascript
 const title = document.querySelector(".title");
 ~~~
-///find a selector with this
-///does not exist. This show you how to find the attibutes
+find a selector with this
+does not exist. This show you how to find the attibutes
 
-/* Video #2 */
-///what is an "Event"
-///we intercept an event. JS can
-///ex. windows -> 
-///widnow.addEventListener();
-///form -> event called submit
-///resize -> (,function that handles the event)
-//#A
+Video no.2
+===
+what is an "Event"
+we intercept an event. JS can
+ex. windows -> 
+widnow.addEventListener();
+form -> event called submit
+resize -> (,function that handles the event)
+### A
 ~~~javascript
 const title = document.querySelector("#title");
 
@@ -38,11 +40,11 @@ function handleResize(){
 
 widnow.addEventListener("resize", handleResize);
 ~~~
-/// not handleResize() -> because this expression calls the function inmediately, right away
+not handleResize() -> because this expression calls the function inmediately, right away
 
-///-> whenever you make a function that will handle ???
+-> whenever you make a function that will handle ???
 
-//#B
+### B
 ~~~javascript
 const title = document.querySelector("#title");
 function handleResize(event){
@@ -51,10 +53,10 @@ function handleResize(event){
 
 widnow.addEventListener("resize", handleResize);
 ~~~
-///display the resize object that was fired
-///will be useful when we are making a form or click on link, etc.
+display the resize object that was fired
+will be useful when we are making a form or click on link, etc.
 
-//#C
+### C
 ~~~javascript
 const title = document.querySelector("#title");
 function handleClick(){
@@ -63,6 +65,6 @@ function handleClick(){
 
 title.addEventListener("click", handleClick);
 ~~~
-///when click then stay blue, can not remove.
+when click then stay blue, can not remove.
 
-///next will add if else statement
+next will add if else statement
