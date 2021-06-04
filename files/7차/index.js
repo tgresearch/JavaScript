@@ -55,3 +55,4 @@ init();
 
 /* Video #2 */
 //get photos for screen watch time -> from unsplash
+// make clock.js, for progress check file there
