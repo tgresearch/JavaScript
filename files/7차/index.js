@@ -54,3 +54,4 @@ function init(){
 init();
 
 /* Video #2 */
+//get photos for screen watch time -> from unsplash
